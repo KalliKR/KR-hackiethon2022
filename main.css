@@ -33,14 +33,14 @@ body {
     }
 }
 
-.foot {
-    position: absolute;
-    bottom: 0%;
-}
-
 /*----Font Styles*/
 i {
     color: #231f20;
+}
+
+.section {
+    display: flex;
+    gap: 20px;
 }
 
 .foot {
@@ -49,6 +49,13 @@ i {
     position: fixed;
     bottom: 0px;
     left: 42%;
+    column-gap: 100px;
+}
+
+.textbox {
+    margin: 50px;
+    display: grid;
+    gap: 30px
 }
 
 .center {
@@ -58,12 +65,20 @@ i {
     width: 50%;
 }
 
+a:link {
+    color: #231f20;
+}
+
 a:hover {
     text-decoration: none;
     color: #625b5d;
 }
 
-a:visited {
+a.navbar-item:hover {
+    background-color: #ed8053;
+    color: #000;
+}
+
+.navbar-item {
     color: #231f20;
-    text-decoration-line: none;
 }
