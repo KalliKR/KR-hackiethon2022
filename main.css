@@ -1,0 +1,69 @@
+/*
+CSS - Put all the formatting information in this file
+
+height: 100%;
+    margin: 10;
+    background-image: -webkit-linear-gradient(rgb(144, 221, 217), rgb(182, 221, 184));
+*/
+
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    color: #f5f8ed;
+    background-color: #f0946e;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*keep for hamburger functionality*/
+@media only screen and (max-width: 1024px) {
+
+    /* You can define your styles in here */
+    .menu-items {
+        flex-direction: column
+    }
+}
+
+.foot {
+    position: absolute;
+    bottom: 0%;
+}
+
+/*----Font Styles*/
+i {
+    color: #231f20;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    left: 42%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #625b5d;
+}
+
+a:visited {
+    color: #231f20;
+    text-decoration-line: none;
+}

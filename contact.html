@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="./functions.js"></script>
+    <script
+      src="https://kit.fontawesome.com/239f472900.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link href="./main.css" rel="stylesheet" />
+  </head>
+
+  <!-- NAVBAR -->
+  <body>
+    <div class="navbar">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="./index.html">
+            <img
+              class="brand_logo"
+              src="./KR_logo.png"
+              style="padding-right: 50px"
+            />
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbar"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbar" class="navbar-menu">
+          <div class="menu-items">
+            <a href="about.html" class="navbar-item">about</a>
+            <a href="projects.html" class="navbar-item">projects</a>
+            <a href="experience.html" class="navbar-item">experience</a>
+            <a href="contact.html" class="navbar-item">contact</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HEADING -->
+    <div class="textbox" style="margin: 50px; display: grid; gap: 30px">
+      <h1 class="title">contact</h1>
+    </div>
+
+    <!-- CONTENT -->
+    <!-- CONTACT FORM-->
+    <div style="margin: 10%; margin-top: 5%; margin-bottom: 5%;">
+      <div class="field">
+        <label class="label">Name</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="e.g Alex Smith" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Email</label>
+        <div class="control">
+          <input
+            class="input"
+            type="email"
+            placeholder="e.g. alexsmith@gmail.com"
+          />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label">Content</label>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <textarea
+                class="textarea"
+                placeholder="Lorem ipsum dolor..."
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field-body">
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary">Send message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SOCIALS -->
+    <div style="display: flex; justify-content: center;">
+      <div id="icon_hyperlinks" class="section">
+        <a
+          class="socials"
+          title="my Instagram profile"
+          href="https://www.instagram.com/vancityreynolds?igshid=YmMyMTA2M2Y="
+          target="_blank"
+        >
+          <i class="fa-brands fa-instagram fa-lg"></i>
+        </a>
+        <a
+          class="socials"
+          title="my Facebook profile"
+          href="https://www.facebook.com/VancityReynolds/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-facebook fa-lg"></i>
+        </a>
+        <a
+          class="socials"
+          title="email me"
+          href="mailto:khto@student.unimelb.edu.au"
+        >
+          <i class="fa-solid fa-envelope fa-xl"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
